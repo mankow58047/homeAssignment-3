@@ -1,0 +1,19 @@
+<div>
+<h1 class="mid">Contact Manager</h1>
+</div>
+
+<nav class="mid">
+    <a (click)="toggleEditor('add')">Add Contact</a>
+    <a (click)="toggleEditor('list')">List Contacts</a>
+
+    
+</nav>
+
+<app-list-contact *ngIf="showListContact"></app-list-contact>
+<app-add-contact *ngIf="showAddContact"></app-add-contact>
+
+
+
+
+
+ 
