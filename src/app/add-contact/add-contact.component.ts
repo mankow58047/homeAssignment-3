@@ -26,7 +26,7 @@ export class AddContactComponent implements OnInit {
     
   }
 
-  add(){
+  add(): void {
     
   }
  
